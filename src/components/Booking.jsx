@@ -1,9 +1,10 @@
 import React from "react";
 import About from "./About";
 import Appointment from "./Appointment";
-import ConcernsTreat from "./concern";
+
 import WorkExperience from "./WorkExperience";
 import Reviews from "./Reviews";
+import ConcernsTreat from "./Concern.jsx";
 
 const Booking = () => {
   return (
@@ -15,12 +16,12 @@ const Booking = () => {
           </div>
 
           <div className="order-2 md:order-1 space-y-5">
-            <>
+          
               <About />
               <ConcernsTreat />
               <WorkExperience />
               <Reviews />
-            </>
+            
           </div>
         </div>
       </div>
