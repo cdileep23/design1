@@ -31,7 +31,7 @@ const Appointment = () => {
   ];
 
   return (
-    <div className="bg-[#fefbfb] rounded-lg p-6 shadow-sm">
+    <div className="bg-[#fefbfb] rounded-xl p-6 shadow-sm">
       <div className="flex justify-between items-center mb-6 border-b pb-4">
         <h2 className="text-lg font-medium">Appointment Fee</h2>
         <span className="text-[#3A643B] font-bold">₹699.00</span>
@@ -144,7 +144,7 @@ const Appointment = () => {
           </div>
         </div>
 
-        {/* Morning Slots */}
+        
         <div className="mb-4">
           <h4 className="font-medium mb-3">Morning</h4>
           <div className="flex flex-wrap gap-2">
@@ -164,7 +164,7 @@ const Appointment = () => {
           </div>
         </div>
 
-        {/* Evening Slots */}
+      
         <div className="mb-6">
           <h4 className="font-medium mb-3">Evening</h4>
           <div className="flex flex-wrap gap-2">
@@ -185,7 +185,7 @@ const Appointment = () => {
         </div>
       </div>
 
-      {/* Book Appointment Button */}
+     
       <button className="w-full bg-[#3A643B] text-white py-3 rounded-lg font-medium hover:bg-green-800 transition-colors">
         Make An Appointment
       </button>
