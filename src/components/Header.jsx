@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <nav className="bg-[#FFF7E2] py-4">
-      <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-4 flex items-center justify-between">
         <h1 className="text-[#3A643B] font-medium text-xl tracking-wider">
           AMRUTAM
         </h1>

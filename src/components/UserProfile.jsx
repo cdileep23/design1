@@ -2,8 +2,8 @@ import React from "react";
 
 const UserProfile = () => {
   return (
-    <div className="w-full flex justify-center my-6 px-4">
-      <div className="max-w-7xl md:w-full bg-[#FFF7E2] rounded-2xl shadow-sm p-6">
+    <div className="w-full flex justify-center my-6">
+      <div className="max-w-6xl md:w-full bg-[#FFF7E2] rounded-2xl shadow-sm p-6">
         <div className="flex flex-col md:flex-row items-center justify-between  gap-6">
      
           <div>
@@ -64,7 +64,7 @@ const UserProfile = () => {
               </div>
             </div>
 
-            {/* Appointment button */}
+        
             <button className="bg-[#3A643B] text-white py-2 px-6 rounded-md hover:bg-[#2a4b2b] transition-colors font-medium">
               Book an Appointment
             </button>
