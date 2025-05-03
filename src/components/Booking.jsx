@@ -10,17 +10,17 @@ const Booking = () => {
     <div className="w-full flex justify-center">
       <div className="max-w-6xl w-full ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:px-3 mb-6">
-        
           <div className="order-1 md:order-2">
-           <Appointment/>
+            <Appointment />
           </div>
 
-        
           <div className="order-2 md:order-1 space-y-5">
-            <About />
-        <ConcernsTreat/>
-        <WorkExperience/>
-        <Reviews/>
+            <>
+              <About />
+              <ConcernsTreat />
+              <WorkExperience />
+              <Reviews />
+            </>
           </div>
         </div>
       </div>
