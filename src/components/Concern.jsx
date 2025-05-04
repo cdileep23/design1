@@ -21,14 +21,12 @@ const ConcernsTreat = () => {
 
   return (
     <div className="bg-[#fefbfb] rounded-lg shadow-sm">
- 
       <div className="w-full bg-gradient-to-r from-[#F4F7EC] to-[#FBFCFB] rounded-t-lg">
-        <h2 className="text-lg font-medium text-green-800 p-4">
+        <h2 className="text-lg font-medium text-[#313131] p-4">
           The Concerns I Treat
         </h2>
       </div>
 
-     
       <div className="p-6 pt-4">
         <div className="flex flex-wrap gap-2">
           {concerns

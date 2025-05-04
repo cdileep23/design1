@@ -4,16 +4,14 @@ import { Plus, Facebook, Instagram, Youtube, Twitter } from "lucide-react";
 const About = () => {
   return (
     <div className="bg-[#fefbfb] rounded-xl shadow-sm">
-    
       <div className="w-full flex justify-between items-center bg-gradient-to-r from-[#F4F7EC] to-[#FBFCFB] rounded-xl p-4">
-        <h2 className="text-lg font-medium text-gray-800">A Little About me</h2>
+        <h2 className="text-lg font-medium text-[#313131]">A Little About me</h2>
         <button className="border border-gray-300 rounded-full px-4 py-1 text-gray-600 flex items-center gap-1 hover:bg-gray-50">
           Follow
           <Plus size={16} />
         </button>
       </div>
 
-     
       <div className="px-6 pb-6">
         <div className="mb-4 pt-4">
           <p className="text-gray-600 mb-6">

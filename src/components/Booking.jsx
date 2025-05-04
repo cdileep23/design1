@@ -5,6 +5,7 @@ import Appointment from "./Appointment";
 import WorkExperience from "./WorkExperience";
 import Reviews from "./Reviews";
 import ConcernsTreat from "./Concern.jsx";
+import Specilaization from "./Specilaization.jsx";
 
 const Booking = () => {
   return (
@@ -18,6 +19,7 @@ const Booking = () => {
           <div className="order-2 md:order-1 space-y-5">
           
               <About />
+              <Specilaization/>
               <ConcernsTreat />
               <WorkExperience />
               <Reviews />
